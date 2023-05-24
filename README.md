@@ -1,5 +1,5 @@
 # NODE-ImgNet: a PDE-informed effective and robust model for image denoising
-***
+
 This repository serves as the official test implementation of my paper, which has been preprinted on arXiv. 
 
 
@@ -14,7 +14,7 @@ The provided code in this repository corresponds to the concepts and methodologi
 
 
 # Running Codes
-***
+
 Requirements for a successful implementation of the codes can be found in `requirements.txt`.
 
 ### Training datasets
@@ -24,14 +24,15 @@ After downloading, place the folder in the ./data/GaussianTrainingData/ director
 
 
 ## Commands
-***
-
-### Training for gray noisy images
-`python gaussian_gray_denoising.py`
-### Training for color noisy images
-`python gaussian_gray_denoising.py`
-
-The training dataset of the gray noisy images is downloaded at 
+Below are some example commands for training or testing NODE-ImgNet:
+#### Training NODE-ImgNet for gray Gaussian noisy images with &sigma; = 25
+`python gaussian_gray_denoising.py --noise_level 25`
+#### Training NODE-ImgNet for color Gaussian noisy images with &sigma; = 25
+`python gaussian_color_denoising.py --noise_level 25`
+#### Training NODE-ImgNet-B (Blind) for gray Gaussian noisy images
+`python gaussian_gray_denoising.py --is_blind`
+#### Training NODE-ImgNet-B (Blind) for color Gaussian noisy images
+`python gaussian_color_denoising.py --is_blind`
 
 
 If you want to cite this paper, please refer to the following format
