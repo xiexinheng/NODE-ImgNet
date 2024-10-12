@@ -18,7 +18,7 @@ The provided code in this repository corresponds to the concepts and methodologi
 Requirements for a successful implementation of the codes can be found in `requirements.txt`.
 
 ### Training datasets
-The training dataset of Gaussian noisy is downloaded at https://drive.google.com/file/d/120ZYtOgHpXJc3jfkdTFa0KzhsJQAEKiK/view?usp=share_link
+The training dataset of Gaussian noisy is downloaded at https://kedema.org/project/exploration/index.html
 
 After downloading, place the folder in the ./data/GaussianTrainingData/ directory.
 
